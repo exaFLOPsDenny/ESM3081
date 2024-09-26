@@ -27,10 +27,10 @@
 # Dataset
 
 ㅁ Training set  
-    to learn the parameters of the model
+> to learn the parameters of the model
 
 ㅁ Validation set  
-    to choose the hyperparameters of the model  
+> to choose the hyperparameters of the model  
 
 ㅁ Test set  
-    for final evaluation of the generalizaiton ability of the model
+>   for final evaluation of the generalizaiton ability of the model
