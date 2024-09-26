@@ -10,5 +10,15 @@
 
 ## k-Nearest Neighbors (KNN)
 
-> 1. Compute distance from new instance point x to each data point in <ins> D (distance metric)) </ins>
-> 2. 
+- No parameters in model
+
+> 1. Compute distance from new instance point x to each data point in <ins>D(distance metric))</ins>
+> 2. Identify <ins>k</ins> nearest neighbors of x
+> 3. Use labels of the nearest neighbors to predict y (weighting scheme)
+
+### hyperparameter k
+
+- smaller k : capture local structure in data (but also noise, high model complexity) --> overfitting
+- larger k : provide more smoothing, less noise, but may miss local structure (low model complexity) --> underfitting
+
+### Data scaling
