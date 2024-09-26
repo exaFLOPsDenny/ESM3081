@@ -10,5 +10,5 @@
 
 ## k-Nearest Neighbors (KNN)
 
-> 1. Compute distance from new instance point x to each data point in <u>D (distance metric))</u>
+> 1. Compute distance from new instance point x to each data point in <ins> D (distance metric)) </ins>
 > 2. 
