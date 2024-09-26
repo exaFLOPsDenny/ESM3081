@@ -23,3 +23,14 @@
 - Tradeoff between accuracy and model complexity  
 
 <img width="336" alt="image" src="https://github.com/user-attachments/assets/7e965d59-2cef-4bb4-be45-58fbe3fc3076">
+
+# Dataset
+
+ㅁ Training set  
+    to learn the parameters of the model
+
+ㅁ Validation set  
+    to choose the hyperparameters of the model  
+
+ㅁ Test set  
+    for final evaluation of the generalizaiton ability of the model
