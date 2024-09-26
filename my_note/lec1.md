@@ -1,16 +1,16 @@
-# learning
+## learning
 
 ㅁ Generalizing training dataset to build a prediction model for unknown test data  
 ㅁ Prediction model is a functional relationship between X and y  
 
-# Supervised
+## Supervised
  
 ㅁ Training dataset with labels  
 ㅁ Type   
 - Classification (class label- discrete)  
 - Regression (continuity label)  
     
-# Generalization
+## Generalization
 
 ㅁ Accurate for unknown data  
 ㅁ Type of failure  
@@ -24,7 +24,7 @@
 
 <img width="336" alt="image" src="https://github.com/user-attachments/assets/7e965d59-2cef-4bb4-be45-58fbe3fc3076">
 
-# Dataset
+## Dataset
 
 ㅁ Training set  
 > to learn the parameters of the model
@@ -34,3 +34,6 @@
 
 ㅁ Test set  
 >   for final evaluation of the generalizaiton ability of the model
+
+## Performance Evalutation
+
