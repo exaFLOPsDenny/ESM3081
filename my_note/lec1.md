@@ -14,7 +14,7 @@
 
 ㅁ Accurate for unknown data  
 ㅁ Type of failure  
-&nbsp;&nbsp;&nbsp;&nbsp; 1) Overfitting  
+- Overfitting  
     2) Underfitting  
 
 ㅁ Relevance between generalization failure and model complexity  
