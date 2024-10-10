@@ -6,9 +6,9 @@
 ## Supervised
  
 > Training dataset with labels  
-ㅁ Type   
-- Classification (class label- discrete)  
-- Regression (continuity label)  
+- Type   
+    - Classification (class label- discrete)  
+    - Regression (continuity label)  
     
 ## Generalization
 > Accurate for unknown data 
