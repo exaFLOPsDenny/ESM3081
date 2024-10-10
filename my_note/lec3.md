@@ -21,8 +21,22 @@ As there is no way to control model complexity, so want to keep the magnitude of
 <img width="693" alt="image" src="https://github.com/user-attachments/assets/815efe6c-4e4f-4332-a901-d73aab56010f">
 
 > Hyperparameter α controls how much you want to regularize  
+> In scikit-learn, L2 is default and as the c(hyperparmeter) gets bigger the less of it's affectiveness, as c is the "inverse of regularization strenght"  
 > As Lasso regularization affects stronger, then the # of feature that are used decrease.(Not getting closer to 0 but just **'0'!!** like feature selection.)
 
 ### Logistic Regression
 
+<img width="763" alt="image" src="https://github.com/user-attachments/assets/8cc9c956-e9b8-48e5-ba67-447bca29c543">
+
 - Decision boundary $w^\top x + b=0$ is linear.
+- No deterministic solution for Logistic Regression exist
+<img width="687" alt="image" src="https://github.com/user-attachments/assets/cf43c62a-34a3-419a-a38f-aaa5db55ded2">
+
+> Cross-entropy aligns with probabilist interpretation with Bernoulli distribution
+
+#### Gradient Descent(for no closed-form solution)
+
+<img width="654" alt="image" src="https://github.com/user-attachments/assets/db48f668-5df5-4476-89f3-3be204d8d40a">
+
+- If the learning-rate is not closed to 0, the assumption of First-order approximation is crushed.
+
