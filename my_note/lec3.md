@@ -17,7 +17,7 @@ $$ \hat{y} = w^\top x $$
 > Finds the parameters **w** and b that minimize the MSE between predictions and true target values  
 > Has no hyperparameters, thus **no way to control model complexity**
 
-#### Loss function  
+### Loss function  
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/cbae528b-523b-40c2-a57e-d22294eaf505"> <img width="285" alt="image" src="https://github.com/user-attachments/assets/f1d7ad61-f3e8-426a-9ee6-bfb0dfa17b63">
 
 - Not only MSE can be the loss function.
@@ -26,7 +26,7 @@ $$ \hat{y} = w^\top x $$
 
 As there is no way to control model complexity, so want to keep the magnitude of the model parameters as small as possible.
 
-#### Regularized Linear Regression
+### Regularized Linear Regression
 <img width="693" alt="image" src="https://github.com/user-attachments/assets/815efe6c-4e4f-4332-a901-d73aab56010f">
 
 - Hyperparameter α controls how much you want to regularize  
@@ -50,7 +50,7 @@ L2 - closed-form possible unlike L1 have to find numerical solution
 
 - Cross-entropy aligns with probabilist interpretation with Bernoulli distribution
 
-#### Gradient Descent(for no closed-form solution)
+### Gradient Descent(for no closed-form solution)
 
 <img width="654" alt="image" src="https://github.com/user-attachments/assets/db48f668-5df5-4476-89f3-3be204d8d40a">
 
