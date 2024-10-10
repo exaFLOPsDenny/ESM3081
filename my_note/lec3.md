@@ -36,7 +36,7 @@ As there is no way to control model complexity, so want to keep the magnitude of
 
 <details>
 <summary> Where to use L1 regularization or L2 regularization?</summary>
-L1 - feature selection(large amount of features and assume that only a few of them are actually important)  
+L1 - feature selection(large amount of features and assume that only a few of them are actually important) <br>
 L2 - closed-form possible unlike L1 have to find numerical solution
 </details>
 
