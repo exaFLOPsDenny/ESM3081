@@ -11,11 +11,11 @@
 - Regression (continuity label)  
     
 ## Generalization
+> Accurate for unknown data 
 
-> Accurate for unknown data  
-ㅁ Type of failure  
-- Overfitting  
-- Underfitting  
+- **Type of failure  
+    - Overfitting  
+    - Underfitting  
 
 
 Relevance between generalization failure and model complexity  
