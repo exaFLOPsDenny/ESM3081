@@ -12,5 +12,5 @@ Loss function
 <img width="493" alt="image" src="https://github.com/user-attachments/assets/cbae528b-523b-40c2-a57e-d22294eaf505"> <img width="285" alt="image" src="https://github.com/user-attachments/assets/f1d7ad61-f3e8-426a-9ee6-bfb0dfa17b63">
 
 - Not only MSE can be the loss function.
-
+ 
 <img width="693" alt="image" src="https://github.com/user-attachments/assets/2fedb6da-202a-4443-adb8-5a982f1ee23f">
