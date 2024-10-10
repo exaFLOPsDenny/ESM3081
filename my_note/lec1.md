@@ -17,6 +17,7 @@
 - Overfitting  
 - Underfitting  
 
+
 > Relevance between generalization failure and model complexity  
 - Larger variety of data points(more data you collect) more complex model you can use without overfitting  
 - Tradeoff between accuracy and model complexity  
