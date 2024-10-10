@@ -40,3 +40,9 @@
 <img width="495" alt="image" src="https://github.com/user-attachments/assets/6dc091ac-97e5-4fda-b3ea-1709cf097318">
 
 ## Preprocessing data
+
+### Data Scaling
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/3c6bb057-b03b-4bbd-8811-8035eb668fe5">
+
+### One-Hot Encoding
+<img width="493" alt="image" src="https://github.com/user-attachments/assets/dc790602-161c-43d6-afb0-f4427866e433">
