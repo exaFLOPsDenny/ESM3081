@@ -36,19 +36,19 @@ Parameter
 > derived via model training
 
 Hyperparmeters
-> Configuration for training of the model
-> set before model training
+> Configuration for training of the model  
+> Set before model training
 
 ## Dataset
 
 Training set  
-> to learn the parameters of the model
+> to learn the **parameters** of the model
 
 Validation set  
-> to choose the hyperparameters of the model  
+> to choose the **hyperparameters** of the model  
 
 Test set  
-> for final evaluation of the generalizaiton ability of the model
+> for final evaluation of the **generalizaiton ability** of the model
 
 ## Performance Evalutation
 
