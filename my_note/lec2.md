@@ -10,11 +10,16 @@
 
 ## k-Nearest Neighbors (KNN)
 
-- No parameters in model
-
-> 1. Compute distance from new instance point x to each data point in <ins>D(distance metric))</ins>
-> 2. Identify <ins>k</ins> nearest neighbors of x
-> 3. Use labels of the nearest neighbors to predict y (weighting scheme)
+- Strenghts  
+    - No parameters in model, making easy to understand
+    - Reasonable performance without a lot of adjustments
+- Weaknesses
+    - Slow as training set gets larger
+    - Poor on dataset with many features
+- Algorithm    
+    > 1. Compute distance from new instance point x to each data point in <ins>D(distance metric))</ins>
+    > 2. Identify <ins>k</ins> nearest neighbors of x
+    > 3. Use labels of the nearest neighbors to predict y (weighting scheme)
 
 <img width="637" alt="image" src="https://github.com/user-attachments/assets/1ba15572-c807-4adb-98f0-2c798b96c082">  
 
