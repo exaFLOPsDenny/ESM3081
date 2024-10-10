@@ -1,24 +1,23 @@
-## learning
+## Learning
 
-ㅁ Generalizing training dataset to build a prediction model for unknown test data  
-ㅁ Prediction model is a functional relationship between X and y  
+> Generalizing training dataset to build a prediction model for unknown test data  
+> Prediction model is a functional relationship between X and y  
 
 ## Supervised
  
-ㅁ Training dataset with labels  
-ㅁ Type   
+> Training dataset with labels  
+> Type   
 - Classification (class label- discrete)  
 - Regression (continuity label)  
     
 ## Generalization
 
-ㅁ Accurate for unknown data  
-ㅁ Type of failure  
+> Accurate for unknown data  
+> Type of failure  
 - Overfitting  
 - Underfitting  
 
-ㅁ Relevance between generalization failure and model complexity  
-
+> Relevance between generalization failure and model complexity  
 - Larger variety of data points(more data you collect) more complex model you can use without overfitting  
 - Tradeoff between accuracy and model complexity  
 
@@ -26,14 +25,14 @@
 
 ## Dataset
 
-ㅁ Training set  
-> to learn the parameters of the model
+> Training set  
+- to learn the parameters of the model
 
-ㅁ Validation set  
-> to choose the hyperparameters of the model  
+> Validation set  
+- to choose the hyperparameters of the model  
 
-ㅁ Test set  
->   for final evaluation of the generalizaiton ability of the model
+> Test set  
+-   for final evaluation of the generalizaiton ability of the model
 
 ## Performance Evalutation
 
