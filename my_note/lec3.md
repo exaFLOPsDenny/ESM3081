@@ -1,5 +1,14 @@
 ## Linear Models
 
+- Strenghs
+    - Linear models are very fast to train and to predict
+    - scale to very large dataset and work well with sparse data
+    - easy to understand
+- Weekness
+    - Highly correlated features can fuzz the meaning of the coefficient
+    - relationship between feature and target should be linear
+
+
 ### Linear Regression
 $$ \hat{y} = w^\top x + b $$
 $$ when \ \ x_i = \{ 1,\ x_{i1},\ x_{i2},... \} $$
@@ -24,6 +33,12 @@ As there is no way to control model complexity, so want to keep the magnitude of
 - In scikit-learn, L2 is default and as the c(hyperparmeter) gets bigger the less of it's affectiveness, as c is the "inverse of regularization strenght"  
 - As Lasso regularization affects stronger, then the # of feature that are used decrease.(Not getting closer to 0 but just **'0'!!** like feature selection.)
 
+<details>
+<summary> Where to use L1 regularization or L2 regularization?</summary>
+L1 - feature selection(large amount of features and assume that only a few of them are actually important)  
+L2 - closed-form possible unlike L1 have to find numerical solution
+<details>
+
 ### Logistic Regression
 
 <img width="763" alt="image" src="https://github.com/user-attachments/assets/8cc9c956-e9b8-48e5-ba67-447bca29c543">
@@ -32,7 +47,7 @@ As there is no way to control model complexity, so want to keep the magnitude of
 - No deterministic solution for Logistic Regression exist
 <img width="687" alt="image" src="https://github.com/user-attachments/assets/cf43c62a-34a3-419a-a38f-aaa5db55ded2">
 
-> Cross-entropy aligns with probabilist interpretation with Bernoulli distribution
+- Cross-entropy aligns with probabilist interpretation with Bernoulli distribution
 
 #### Gradient Descent(for no closed-form solution)
 
@@ -40,3 +55,4 @@ As there is no way to control model complexity, so want to keep the magnitude of
 
 - If the learning-rate is not closed to 0, the assumption of First-order approximation is crushed.
 
+<img width="750" alt="image" src="https://github.com/user-attachments/assets/80f13f76-ab42-4395-8a84-2ddc1657214f">
