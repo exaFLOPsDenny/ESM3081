@@ -6,16 +6,16 @@
 ## Supervised
  
 > Training dataset with labels  
-> Type   
+ㅁ Type   
 - Classification (class label- discrete)  
 - Regression (continuity label)  
     
 ## Generalization
 
 > Accurate for unknown data  
-Type of failure  
-> Overfitting  
-> Underfitting  
+ㅁ Type of failure  
+- Overfitting  
+- Underfitting  
 
 > Relevance between generalization failure and model complexity  
 - Larger variety of data points(more data you collect) more complex model you can use without overfitting  
@@ -25,14 +25,14 @@ Type of failure
 
 ## Dataset
 
-> Training set  
-- to learn the parameters of the model
+- Training set  
+> to learn the parameters of the model
 
-> Validation set  
-- to choose the hyperparameters of the model  
+- Validation set  
+> to choose the hyperparameters of the model  
 
-> Test set  
--   for final evaluation of the generalizaiton ability of the model
+- Test set  
+> for final evaluation of the generalizaiton ability of the model
 
 ## Performance Evalutation
 
