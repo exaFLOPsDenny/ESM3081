@@ -33,6 +33,7 @@ As there is no way to control model complexity, so want to keep the magnitude of
 - In scikit-learn, L2 is default and as the c(hyperparmeter) gets bigger the less of it's affectiveness, as c is the "inverse of regularization strenght"  
 - As Lasso regularization affects stronger, then the # of feature that are used decrease.(Not getting closer to 0 but just **'0'!!** like feature selection.)
 
+
 <details>
 <summary> Where to use L1 regularization or L2 regularization?</summary>
 L1 - feature selection(large amount of features and assume that only a few of them are actually important)  
