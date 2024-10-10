@@ -14,7 +14,7 @@
 > Accurate for unknown data 
 
 - Type of failure  
-    1. Overfitting  
+    - Overfitting  
         > Model too complex for the amount of data
         > Model fit too closely to the particularities of the training set
         > Work well on training set, but not on test set
@@ -31,8 +31,13 @@ Relevance between generalization failure and model complexity
 <img width="336" alt="image" src="https://github.com/user-attachments/assets/7e965d59-2cef-4bb4-be45-58fbe3fc3076">
 
 ## Model Parameters / Hyperparameters
-- Parameter
-    > Configuration internal to the model
+Parameter  
+> Configuration internal to the model  
+> derived via model training
+
+Hyperparmeters
+> Configuration for training of the model
+> set before model training
 
 ## Dataset
 
