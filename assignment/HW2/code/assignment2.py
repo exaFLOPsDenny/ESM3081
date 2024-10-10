@@ -5,17 +5,16 @@ from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
-# Load dataset (Energy Efficiency Data Set)
-url = "https://archive.ics.uci.edu/ml/machine-learning-databases/00242/ENB2012_data.xlsx"
-data = pd.read_excel(url)
+# Load dataset (Energy Efficiency Data Set)""
+data = pd.read_csv("./HW2/data/parkinsons_updrs.csv")
 
 # Displaying dataset info
 print("Dataset shape:", data.shape)
 print("Columns:", data.columns)
 
 # Select features and target
-X = data.iloc[:, :-2]  # First 8 columns as features
-y = data.iloc[:, -2]   # Heating load as target (you can also use 'Cooling load')
+X = data.iloc[:, 6:]  # First 8 columns as features
+y = data.iloc[:, 4]   # Heating load as target (you can also use 'Cooling load')
 
 # Check dataset dimensions
 print(f"Number of data points: {X.shape[0]}")
