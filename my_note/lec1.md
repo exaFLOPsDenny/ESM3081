@@ -13,9 +13,9 @@
 ## Generalization
 
 > Accurate for unknown data  
-> Type of failure  
-- Overfitting  
-- Underfitting  
+- Type of failure  
+> Overfitting  
+> Underfitting  
 
 > Relevance between generalization failure and model complexity  
 - Larger variety of data points(more data you collect) more complex model you can use without overfitting  
