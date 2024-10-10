@@ -25,13 +25,13 @@
 
 ## Dataset
 
-- Training set  
+Training set  
 > to learn the parameters of the model
 
-- Validation set  
+Validation set  
 > to choose the hyperparameters of the model  
 
-- Test set  
+Test set  
 > for final evaluation of the generalizaiton ability of the model
 
 ## Performance Evalutation
