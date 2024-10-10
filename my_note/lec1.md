@@ -13,6 +13,7 @@
 ## Generalization
 
 > Accurate for unknown data  
+
 ㅁ Type of failure  
 - Overfitting  
 - Underfitting  
