@@ -20,5 +20,5 @@ As there is no way to control model complexity, so want to keep the magnitude of
 ### Regularized Linear Regression
 <img width="693" alt="image" src="https://github.com/user-attachments/assets/815efe6c-4e4f-4332-a901-d73aab56010f">
 
-> Hyperparameter α controls how much you want to regularize
+> Hyperparameter α controls how much you want to regularize  
 > As Lasso regularization affects stronger, then the # of feature that are used decrease.(Not getting closer to 0 but just **'0'!!**) 
