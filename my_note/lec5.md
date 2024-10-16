@@ -14,15 +14,18 @@
 - No hyperparameter, only w and b as parameter
 
 #### Soft-margin formulation (when data are linearly inseparable)
-<img width="733" alt="image" src="https://github.com/user-attachments/assets/c49f1dca-c4c4-4dc1-8c5e-c648de064624">
 
 - Introducing slack parameter  
 - Hyperparameter C gets bigger, more focus on slack variable
 - Cost function can be seen as using slack summation instead of cross entropy and using L2 regulatization on Logistic regression
-- As it is convex problem, we can use Largrange multiplier method  
+- As it is convex problem, we can use Largrange multiplier method and also guarantees global optimum  
+
+<img width="733" alt="image" src="https://github.com/user-attachments/assets/c49f1dca-c4c4-4dc1-8c5e-c648de064624">
 
 <img width="619" alt="image" src="https://github.com/user-attachments/assets/cc493b9a-58de-4d2a-970c-b60af74d3c05">
 
 <img width="619" alt="image" src="https://github.com/user-attachments/assets/b4fb484b-bc71-4d58-b2e1-a1f5be7b8660">
 
-<img width="768" alt="image" src="https://github.com/user-attachments/assets/35ee3b40-827e-4fd5-aeef-f20695e0cb4f">
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/536aff6b-69d3-4e44-8be4-5cdddfb7278a">
+
+<img width="644" alt="image" src="https://github.com/user-attachments/assets/4e296dc2-aa92-40f0-990d-4601eed4746a">
