@@ -57,6 +57,14 @@ Solution
 
 > Random forest is an ensemble of decision trees, where each tree is slightly different from others
 > Got it's name by injecting randomness into the tree building to ensure each tree is different. By this reduce the amount of overfitting by averaging their results while retaining the predictive power of the trees.
+> As admitting there will be overfitting on trees, hyperparameters(max_depth, max_features, n_leaf_nodes) of each trees don't effect that much.  
+
+- Strengths  
+    - Powerful ("Do we need hundreds of classifiers to solve real world classification problem? - Are Random Forests truly the best classifiers?)
+    - Work well without heavy tuning hyperparameters
+- Weakness
+    - Impossible to interpret all each trees
+    - Time-consuming(no pre-pruning) -> n_jobs
 
 ### Randomness
 1. Bootstrap (by selecting the data points used to build a tree)
@@ -64,4 +72,10 @@ Solution
 2. Max_features (by selecting the features in each split test)
     - High: trees will be quite similar to each other
     - Low: different and might need to be deeper
-    - Classification($\sqrt{p}$) and Regression(p/3)
+    - Classification($\sqrt{p}$) and Regression(p/3)  
+<img width="656" alt="image" src="https://github.com/user-attachments/assets/1a67f0bf-7897-40ec-9fd8-c8ddbeafa620">
+
+### Hyperparameter of Random Forest
+- n_estimators: # of trees (more the better but over 128 no much difference)
+- max_features
+- bootstrap
