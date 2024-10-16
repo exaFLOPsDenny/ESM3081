@@ -8,7 +8,8 @@ Structure
 > Leaf node: prediction  
 
 Strength
-> extracted knowledge can be easily understood, interpreted, controlled by humans in the form of a readable decision tree
+> extracted knowledge can be easily understood, interpreted, controlled by humans in the form of a readable decision tree  
+> By seeing feature importance, we can see which feature is giving big effect  
 
 - Finitely many different decision trees can exist. But too many possible tree can exist
     - Optimal algorithm generates all possible trees and choose the best one.
@@ -17,7 +18,9 @@ Strength
 1. Repeatedly split a node into two parts so as to minimize the impurity of outcome within the new pars
 
 ### How to determine the best split?
-
+    - Regression
+    To minimize the variance  
+    
     - Classification
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/a8de12b5-0fbb-4715-9889-62c87a79e998"> <img width="432" alt="image" src="https://github.com/user-attachments/assets/247aa143-57bd-479f-84bd-d2cab33fb14b">
 
@@ -27,6 +30,12 @@ Strength
 - Very complex, overfitted
 - So we can use greedy strategy, and use majority class for Classification, mean target for Regression.  
 
-Solution
-    - Pre-pruning:
-    - Post-pruning:
+Solution  
+    - Pre-pruning(used more): Stopping the creation of the tree early
+    <img width="589" alt="image" src="https://github.com/user-attachments/assets/382de84d-ebea-43a7-88d1-ba45abdbde10">  
+        - min_sample_leaf **small** ~ overfit
+        - max_depth: big ~ overfit
+        - max_leaf_node big ~ overfit
+    - Post-pruning: removing or collapsing nodes that contain little infomation
+
+
