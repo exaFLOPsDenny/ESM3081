@@ -20,7 +20,7 @@ Structure
     - Space of possible DT is large
 > 
 
-- Finitely many different decision trees can exist. But too many possible tree can exist
+Finitely many different decision trees can exist. But too many possible tree can exist
     - Optimal algorithm generates all possible trees and choose the best one.
     - Heuristic algorithms with greedy strategy  
 ### Procedure
