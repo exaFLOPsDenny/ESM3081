@@ -16,7 +16,7 @@
 #### Soft-margin formulation (when data are linearly inseparable)
 
 - Introducing slack parameter  
-- Hyperparameter C gets **bigger**, more focus on slack variable, **less focus on regularization, occuring overfitting**
+- Hyperparameter C gets **bigger**, more focus on sum of slack variable(hinge), **less focus on regularization, occuring overfitting**
 - Cost function can be seen as using slack summation instead of cross entropy and using L2 regulatization on Logistic regression
 - As it is convex problem, we can use Largrange multiplier method and also guarantees global optimum  
 
@@ -34,3 +34,5 @@
 
 <img width="856" alt="image" src="https://github.com/user-attachments/assets/0a34e92a-3cb7-42d3-94a7-eebb48b6d77b">
 
+
+### Kernelized SVM
