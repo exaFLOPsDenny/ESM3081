@@ -7,9 +7,9 @@
 #### Hard-margin formulation
 <img width="679" alt="image" src="https://github.com/user-attachments/assets/b8423975-4a1b-48f5-a89d-e68506c28bc0">
 
-- Maximizing the margin:
-    $$ \frac{2}{|w|} $$
-    $$ \frac{1}{2} w^T w $$
+- Maximizing the margin:  
+$$ \frac{2}{|w|} $$
+$$ \frac{1}{2} w^T w $$
 
 
 #### Soft-margin formulation (when data are linearly inseparable)
