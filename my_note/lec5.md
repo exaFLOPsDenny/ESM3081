@@ -1,6 +1,6 @@
-## Support Vector Machines (SVM)
+# Support Vector Machines (SVM)
 
-### For Classification
+## For Classification
 > Find the hyperplane that maximizes the margin   
 
 <img width="702" alt="image" src="https://github.com/user-attachments/assets/47956d56-dbb8-4855-8bfd-99a90d18d6ec"> <img width="295" alt="image" src="https://github.com/user-attachments/assets/ca1052fd-9e83-45f1-a181-ca38b4fe40da">
@@ -50,5 +50,11 @@ But not all functions can be kernels.
 <img width="839" alt="image" src="https://github.com/user-attachments/assets/78558249-2dec-48a3-bff8-2b72360a553a">
 
 - lower value of gamma: underfitting
-- higher value of gamma: overfitting
+- higher value of gamma: overfitting  
 -> Grid-search for hyperparameter optimization
+
+### SVC for Multi-class classification
+
+<img width="765" alt="image" src="https://github.com/user-attachments/assets/4005ea0a-3962-4b21-8f4a-9d9e8e77a08f">
+
+## For Regression

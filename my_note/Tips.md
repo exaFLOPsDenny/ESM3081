@@ -5,3 +5,5 @@
 5. Non-linear activation function for hidden units, without this despite a lot of hidden layers it is still a linear model
 6. Why margin 2/|w|
 7. SVM에서 alpha가 0, +, - 의미
+8. scaling 시에 X_train만!!!!
+ <img width="436" alt="image" src="https://github.com/user-attachments/assets/97834108-cc3a-4340-9fae-cb0722388fd5">
