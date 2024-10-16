@@ -4,4 +4,4 @@
 4. Wrong debugging will loss points
 5. Non-linear activation function for hidden units, without this despite a lot of hidden layers it is still a linear model
 6. Why margin 2/|w|
-7.
+7. SVM에서 alpha가 0, +, - 의미
