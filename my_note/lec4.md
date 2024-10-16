@@ -21,8 +21,8 @@ Structure
 > 
 
 Finitely many different decision trees can exist. But too many possible tree can exist
-    - Optimal algorithm generates all possible trees and choose the best one.
-    - Heuristic algorithms with greedy strategy  
+- Optimal algorithm generates all possible trees and choose the best one.
+- Heuristic algorithms with greedy strategy  
 ### Procedure
 1. Repeatedly split a node into two parts so as to minimize the impurity of outcome within the new pars
 
