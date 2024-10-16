@@ -38,3 +38,10 @@
 
 
 ### Kernelized SVM
+
+> Some dataset are nonlinearly seperable and can be limiting in low-dimensional input space  
+
+<details>
+<summary> Advantage using kernel</summary>
+As compuation only require inner product, by defining k (kernel) without knowing what function φ which is replacing attributes into features.
+<details>
