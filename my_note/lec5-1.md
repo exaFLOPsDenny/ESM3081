@@ -56,5 +56,3 @@ But not all functions can be kernels.
 ### SVC for Multi-class classification
 
 <img width="765" alt="image" src="https://github.com/user-attachments/assets/4005ea0a-3962-4b21-8f4a-9d9e8e77a08f">
-
-## For Regression
