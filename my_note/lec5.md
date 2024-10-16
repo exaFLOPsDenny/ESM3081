@@ -44,4 +44,11 @@
 <details>
 <summary> Advantage using kernel</summary>
 As compuation only require inner product, by defining k (kernel) without knowing what function φ which is replacing attributes into features.
-<details>
+But not all functions can be kernels.
+</details>
+
+<img width="839" alt="image" src="https://github.com/user-attachments/assets/78558249-2dec-48a3-bff8-2b72360a553a">
+
+- lower value of gamma: underfitting
+- higher value of gamma: overfitting
+-> Grid-search for hyperparameter optimization
