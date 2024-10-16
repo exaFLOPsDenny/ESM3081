@@ -49,3 +49,19 @@ Solution
     - Post-pruning: removing or collapsing nodes that contain little infomation
 
 
+- Decision trees tend to overfit the fraining data
+    - Ensemble methods combine multiple machine learning models to create more powerful models.  
+    <img width="450" alt="image" src="https://github.com/user-attachments/assets/68d43814-3e6f-4b10-8482-f271eb65a5d8">
+
+## Random Forests
+
+> Random forest is an ensemble of decision trees, where each tree is slightly different from others
+> Got it's name by injecting randomness into the tree building to ensure each tree is different. By this reduce the amount of overfitting by averaging their results while retaining the predictive power of the trees.
+
+### Randomness
+1. Bootstrap (by selecting the data points used to build a tree)
+    - slightly different dataset(복원추출)
+2. Max_features (by selecting the features in each split test)
+    - High: trees will be quite similar to each other
+    - Low: different and might need to be deeper
+    - Classification($\sqrt{p}$) and Regression(p/3)
