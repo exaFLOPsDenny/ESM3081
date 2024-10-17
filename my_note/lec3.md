@@ -1,8 +1,8 @@
 ## Linear Models
 > Linear combination of features and parameters
 
-- Strenghs
-    - Linear models are very fast to train and to predict
+- Strengths
+    - Linear models are very fast to train and to predict (Inner production with features and parameters)
     - scale to very large dataset and work well with sparse data
     - easy to understand
 - Weekness
