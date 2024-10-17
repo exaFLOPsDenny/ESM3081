@@ -49,5 +49,6 @@ https://www.nature.com/articles/nature14539
 
 
 #### Uncertainty Estimates
+> High inpurity ~ High uncertainty 
 
 <img width="432" alt="image" src="https://github.com/user-attachments/assets/93973a99-daa8-4f09-aca5-8c7e95a59387">
