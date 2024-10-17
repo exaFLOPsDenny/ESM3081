@@ -50,9 +50,9 @@ Finitely many different decision trees can exist.
 - Post-pruning: removing or collapsing nodes that contain little infomation
 
 
-- Decision trees tend to overfit the fraining data
-    - Ensemble methods combine multiple machine learning models to create more powerful models.  
-    <img width="450" alt="image" src="https://github.com/user-attachments/assets/68d43814-3e6f-4b10-8482-f271eb65a5d8">
+Decision trees tend to overfit the training data
+- Ensemble methods combine multiple machine learning models to create more powerful models.  
+<img width="450" alt="image" src="https://github.com/user-attachments/assets/68d43814-3e6f-4b10-8482-f271eb65a5d8">
 
 ## Random Forests
 
