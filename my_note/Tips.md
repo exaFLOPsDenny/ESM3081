@@ -9,3 +9,6 @@
 regression 에서는 y값에도
 9. number of parameters in SVM for classification(n) for regression(2n)
 10. Logistic regression label(0,1) SVC(-1,1)
+11. Hyperparameter and generalization
+    - 
+12. 

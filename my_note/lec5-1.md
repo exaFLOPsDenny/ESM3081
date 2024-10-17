@@ -42,7 +42,7 @@
 
 <details>
 <summary> Advantage using kernel</summary>
-As compuation only require inner product, by defining k (kernel) without knowing what function φ which is replacing attributes into features.
+As compuation only require inner product, defining k (kernel) without knowing what function φ which is replacing attributes into features makes us handle non-linear dataset.
 But not all functions can be kernels.
 </details>
 
