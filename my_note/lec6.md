@@ -11,8 +11,9 @@ Structure
 > Computing a series of weighted sums **without** non-linear activation function is mathematically the same as a linear model.
 
 1. RELU (rectifying nonlinear unit)
-    - $$ g(z) = \max(0, z) $$
+    - <code>g(z) = max(0, z)</code>
     - Cuts off values below zero
 2. tanh (hyperbolic tangent)
-    - $$ g(z) = \tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}} $$
+    - <code>g(z) = tanh(z) = (e^z - e^{-z}) / (e^z + e^{-z})</code>
     - Squashes values between -1 and 1
+
