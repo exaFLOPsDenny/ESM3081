@@ -41,13 +41,13 @@ Finitely many different decision trees can exist.
 - Very complex, overfitted
 - So we can use greedy strategy, and use majority class for Classification, mean target for Regression.  
 
-Solution  
-    - Pre-pruning(used more): Stopping the creation of the tree early
+### Solution  
+- Pre-pruning(used more): Stopping the creation of the tree early
     <img width="589" alt="image" src="https://github.com/user-attachments/assets/382de84d-ebea-43a7-88d1-ba45abdbde10">  
-        - min_sample_leaf **small** ~ overfit
-        - max_depth: big ~ overfit
-        - max_leaf_node big ~ overfit
-    - Post-pruning: removing or collapsing nodes that contain little infomation
+    - min_sample_leaf **small** ~ overfit
+    - max_depth: big ~ overfit
+    - max_leaf_node big ~ overfit
+- Post-pruning: removing or collapsing nodes that contain little infomation
 
 
 - Decision trees tend to overfit the fraining data
