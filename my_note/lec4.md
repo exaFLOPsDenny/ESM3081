@@ -80,3 +80,6 @@ Decision trees tend to overfit the training data
 - n_estimators: # of trees (more the better but over 128 no much difference)
 - max_features
 - bootstrap
+<img width="795" alt="image" src="https://github.com/user-attachments/assets/4ce67dcd-7910-424e-83d5-4ca7bd8ade2b">
+
+<img width="795" alt="image" src="https://github.com/user-attachments/assets/c9881d91-505b-47e8-b4d1-aca7c83faa5d">
