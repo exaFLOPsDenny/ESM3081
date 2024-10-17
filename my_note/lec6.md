@@ -8,7 +8,7 @@ Structure
 
 #### Non-linear activation function
 
-> Computing a series of weighted sums **without** non-linear activation function is mathematically the same as a linear model.
+> Computing a series of weighted sums **without** non-linear activation function is mathematically the same as a linear model.  
 
 1. RELU(rectifying nonlinear unit)
     - g(z) = max(0,z)
@@ -16,7 +16,6 @@ Structure
 2. tanh(hyperbolic tangent)
     - $$ g(z) $$
 
-### Linear Regression
 $$ \hat{y} = w^\top x + b $$
 $$ when \ \ x_i = \{ 1,\ x_{i1},\ x_{i2},... \} $$
 $$ \hat{y} = w^\top x $$
