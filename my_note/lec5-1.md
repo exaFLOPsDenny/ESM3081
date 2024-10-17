@@ -1,6 +1,5 @@
 # Support Vector Machines (SVM)
-
-## For Classification
+## For Classification(SVC/)
 > Find the hyperplane that maximizes the margin   
 
 <img width="702" alt="image" src="https://github.com/user-attachments/assets/47956d56-dbb8-4855-8bfd-99a90d18d6ec"> <img width="295" alt="image" src="https://github.com/user-attachments/assets/ca1052fd-9e83-45f1-a181-ca38b4fe40da">
