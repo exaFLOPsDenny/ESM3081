@@ -18,7 +18,7 @@ Structure
     - tend to overfit
     - interaction between features are ignored
     - Space of possible DT is large
-> 
+
 
 Finitely many different decision trees can exist. But too many possible tree can exist
 - Optimal algorithm: generates all possible trees and choose the best one.
@@ -28,7 +28,8 @@ Finitely many different decision trees can exist. But too many possible tree can
 
 ### How to determine the best split?
 - Regression  
-    To minimize the variance, but the results for unknown data which might escape the range of train data might be poor.
+    - To minimize the variance, but the results for unknown data which might escape the range of train data might be poor.
+    - Poor result: mean value of train data
 <img width="589" alt="image" src="https://github.com/user-attachments/assets/7f4ec027-0f9a-4227-b139-bf85a926bb02">  
 
 - Classification  
