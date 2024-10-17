@@ -8,7 +8,7 @@ Structure
 
 #### Non-linear activation function
 
-> Computing a series of weighted sums **without** non-linear activation function is mathematically the same as a linear model.
+> Computing a series of weighted sums **without** non-linear activation function is mathematically the same as a linear model.  
 
 
 $$ g(z) = \max(0, z) $$
