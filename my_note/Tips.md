@@ -11,4 +11,4 @@ regression 에서는 y값에도
 10. Logistic regression label(0,1) SVC(-1,1)
 11. Hyperparameter and generalization
     - 
-12. 
+12. learning rate should be small if not the assumption of taylor expansion fails
