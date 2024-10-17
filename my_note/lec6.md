@@ -18,6 +18,6 @@ Structure
 
 1. RELU(rectifying nonlinear unit)
 
-$$ \hat{y} = w^\top x + b $$
+$$ g{z} = w^\top x + b $$
 $$ when \ \ x_i = \{ 1,\ x_{i1},\ x_{i2},... \} $$
 $$ \hat{y} = w^\top x $$
