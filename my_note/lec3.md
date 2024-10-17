@@ -3,11 +3,11 @@
 
 - Strengths
     - Linear models are very fast to train and to predict (Inner production with features and parameters)
-    - scale to very large dataset and work well with sparse data
-    - easy to understand
-- Weekness
+    - Scale to very large dataset and work well with sparse data
+    - Easy to understand
+- Weekness (Strong assumption)
     - Highly correlated features can fuzz the meaning of the coefficient
-    - relationship between feature and target should be linear
+    - Relationship between feature and target should be linear
 
 
 ### Linear Regression
