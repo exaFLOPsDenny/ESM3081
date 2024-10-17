@@ -7,8 +7,7 @@
     - Easy to understand
 - Weekness (Strong assumption)
     - Highly correlated features can fuzz the meaning of the coefficient
-    - Relationship between feature and target should be linear
-
+    - Hard when relationship between feature and target is non-linear
 
 ### Linear Regression
 $$ \hat{y} = w^\top x + b $$
