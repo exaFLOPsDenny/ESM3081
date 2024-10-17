@@ -1,4 +1,5 @@
 ## Linear Models
+> Linear combination of features and parameters
 
 - Strenghs
     - Linear models are very fast to train and to predict
