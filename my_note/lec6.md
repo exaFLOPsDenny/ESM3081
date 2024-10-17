@@ -16,5 +16,6 @@ $$ g(z) = max(0,z) $$
 $$ Cuts off values below zero $$
 
 2. tanh(hyperbolic tangent)  
+
 $$ g(z) = \tanh(z) = \frac{e^z - e^{-z}}{e^z + e^{-z}} $$  
 $$ saturates to -1 ~ +1 $$
