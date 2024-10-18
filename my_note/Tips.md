@@ -15,7 +15,8 @@ regression 에서는 y값에도
     - very large alpha ~ flat line foing through the mean of the labels in the training set
     - DT (max_depth: high ~ overfitting / min_sample_leaf: low ~ overfitting / max_leaf_nodes: high ~ overfitting)
     - RF (Boostrap 0: generalized / max_feature: low ~ overfitting)
-     
+    - SVC (C: big ~ overfitting)
+    - SVR (C: big ~ overfitting/ epsilon: small ~ overfitting / gamma in rbf kernel: big ~ overfitting)
 12. learning rate should be small if not the assumption of taylor expansion fails
 13. No free lunch 절대적으로 낫다 는 없다
 14. DT는 비교적 feature scaling에 영향을 덜 받는다(0~1 보단 -1~1까지 0을 중심으로 하는 것이 더 좋다)
@@ -24,3 +25,4 @@ regression 에서는 y값에도
 15. Big data 에 좋은 것: Linear model, NN
 16. Big data 에 안 좋은 것: SVM, KNN
 17. Regularization이 어느 수준 이상으로 과도하게 강하면 모든 파라미터가 0에 수렴하면서 모든 예측을 0으로 하게 됩니다.
+18. Linear regression 사용 시 training R^2은 0부터 1 사이의 값을 가지게 되나, test R^2은 음수의 값을 가질 수 있습니다.-> 단순한 평균 예측보다도 더 나쁜 성능을 보인다는 의미 (R^2의 definition을 생각해볼 것-> 잔차 제곱합이 총 제곱합보다 크면 R² 값이 음수가 될 수 있습니다.). 다른 알고리즘 사용시 이론적으로 training R^2도 0보다 작을 수도 있습니다. 그러나 어떠한 경우에도 R^2은 항상 1보다 클 수는 없습니다.
