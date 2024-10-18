@@ -7,7 +7,8 @@
 7. SVM에서 alpha가 0, +, - 의미
 8. scaling 시에 X_train만!!!! <img width="436" alt="image" src="https://github.com/user-attachments/assets/97834108-cc3a-4340-9fae-cb0722388fd5">  
 
-regression 에서는 y값에도
+regression 에서는 y값에도 
+
 9. number of parameters in SVM for classification(n) for regression(2n)
 10. Logistic regression label(0,1) SVC(-1,1)
 11. Hyperparameter and generalization(단순해진다-regulatization 강해진다)
