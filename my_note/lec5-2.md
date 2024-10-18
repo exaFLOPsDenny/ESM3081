@@ -17,6 +17,9 @@ Cost function of MSE changed to ε-insensitive loss function which only penaltiz
     - Epsilon (High ~ underfitting)
     - kernel (nonlinear)
     - gamma(if 'rbf' kernel)
+    <img width="795" alt="image" src="https://github.com/user-attachments/assets/19364dfe-83e0-40df-8455-4ae4a1f79839">
+
+
 - For regression, **scaling for target values** are valid. (Slack variable depends on target value)
 <img width="565" alt="image" src="https://github.com/user-attachments/assets/f79195fb-00f1-46a8-853b-1cd259766fb0">
 
