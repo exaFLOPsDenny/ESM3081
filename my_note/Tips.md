@@ -20,3 +20,7 @@ regression 에서는 y값에도
 13. No free lunch 절대적으로 낫다 는 없다
 14. DT는 비교적 feature scaling에 영향을 덜 받는다(0~1 보단 -1~1까지 0을 중심으로 하는 것이 더 좋다)
 <img width="861" alt="image" src="https://github.com/user-attachments/assets/0b576612-fb2e-43eb-af03-7a82501e702b">
+
+15. Big data 에 좋은 것: Linear model, NN
+16. Big data 에 안 좋은 것: SVM, KNN
+17. Regularization이 어느 수준 이상으로 과도하게 강하면 모든 파라미터가 0에 수렴하면서 모든 예측을 0으로 하게 됩니다.
