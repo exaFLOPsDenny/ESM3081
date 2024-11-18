@@ -9,16 +9,10 @@ abalone = fetch_ucirepo(id=1)
 # data (as pandas dataframes) 
 X = abalone.data.features 
 y = abalone.data.targets 
-  
-
-
-# Assuming X is a DataFrame and y is a Series
-X = abalone.data.features  # Features DataFrame
-y = abalone.data.targets   # Target Series
 
 # Create subplots
 num_features = X.shape[1]
-fig, axes = plt.subplots(nrows=(num_features + 3) // 4, ncols=4, figsize=(20, 15))
+fig, axes = plt.subplots(nrows=(num_features + 3) // 4, ncols=4, figsize=(24, 16))
 axes = axes.flatten()
 
 for idx, column in enumerate(X.columns):
@@ -26,12 +20,15 @@ for idx, column in enumerate(X.columns):
     axes[idx].set_title(f"{column} vs y")
     axes[idx].set_xlabel(column)
     axes[idx].set_ylabel('y')
+    axes[idx].legend(loc='best', fontsize=8)
 
 # Remove unused subplots if the number of features isn't a multiple of 4
 for ax in axes[num_features:]:
     fig.delaxes(ax)
 
-plt.tight_layout()
+plt.tight_layout(pad=3)
 plt.show()
 
+print(len(X))
+print(num_features)
 
