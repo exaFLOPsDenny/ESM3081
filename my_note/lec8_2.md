@@ -16,7 +16,7 @@
 
 > Eigendecomposition of the covariance matrix of the data
 
-<img width="169" alt="image" src="https://github.com/user-attachments/assets/e0c23001-dd69-4cfd-98a0-a81f9004ae49">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/e0c23001-dd69-4cfd-98a0-a81f9004ae49">
 
 - Finding the eigenvectors with the largest eigenvalues  
     - Eigenvectors - principal components  
@@ -25,9 +25,9 @@
 **Goal: Find r-dim projection that best preserves variance (r <= d>)** 
 
 1. Given dataset D = {x_1, x_2,..., x_n} assume or make(StandardScaling) mean of x to 0  
-<img width="764" alt="image" src="https://github.com/user-attachments/assets/6ca1f365-345f-4667-bbf6-2e2690df22fa">
-<img width="760" alt="image" src="https://github.com/user-attachments/assets/51a6bc21-bcd4-438d-82b5-0b13bd069778">
-<img width="764" alt="image" src="https://github.com/user-attachments/assets/4297ace3-f981-4379-8ceb-e6a30d6f5819">  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/6ca1f365-345f-4667-bbf6-2e2690df22fa">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/51a6bc21-bcd4-438d-82b5-0b13bd069778">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/4297ace3-f981-4379-8ceb-e6a30d6f5819">  
 
 2. Compute covariance matrix **S** of original data points in the training dataset D 
 3. Compute eigenvectors and eigenvalues of **S**
@@ -47,5 +47,5 @@
 - Direction (sign) of PC doesn't matter
 - Explaning the mixture of features in new PC is tricky   
 
-<img width="791" alt="image" src="https://github.com/user-attachments/assets/bd8364ca-75d9-4d9b-b6bc-3364e0672cc6">
-<img width="1232" alt="image" src="https://github.com/user-attachments/assets/d39d951d-6b21-46bb-bce6-4411e91c866f">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/bd8364ca-75d9-4d9b-b6bc-3364e0672cc6">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/d39d951d-6b21-46bb-bce6-4411e91c866f">
