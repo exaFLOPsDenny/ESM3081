@@ -25,7 +25,7 @@
 **Goal: Find r-dim projection that best preserves variance (r <= d>)** 
 
 1. Given dataset D = {x_1, x_2,..., x_n} assume or make(StandardScaling) mean of x to 0  
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/6ca1f365-345f-4667-bbf6-2e2690df22fa">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/6ca1f365-345f-4667-bbf6-2e2690df22fa">
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/51a6bc21-bcd4-438d-82b5-0b13bd069778">
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4297ace3-f981-4379-8ceb-e6a30d6f5819">  
 
