@@ -6,7 +6,7 @@
 
 #### New features Z
 
-- Linear combinations of the original features  
+- **Linear combinations** of the original features(t-SNE is non-linear)  
 - uncorrelated  
 - Directions of linear combinations are called principal components  
 
