@@ -28,3 +28,5 @@ regression 에서는 y값에도
 16. Big data 에 안 좋은 것: SVM, KNN
 17. Regularization이 어느 수준 이상으로 과도하게 강하면 모든 파라미터가 0에 수렴하면서 모든 예측을 0으로 하게 됩니다.
 18. Linear regression 사용 시 training R^2은 0부터 1 사이의 값을 가지게 되나, test R^2은 음수의 값을 가질 수 있습니다.-> 단순한 평균 예측보다도 더 나쁜 성능을 보인다는 의미 (R^2의 definition을 생각해볼 것-> 잔차 제곱합이 총 제곱합보다 크면 R² 값이 음수가 될 수 있습니다.). 다른 알고리즘 사용시 이론적으로 training R^2도 0보다 작을 수도 있습니다. 그러나 어떠한 경우에도 R^2은 항상 1보다 클 수는 없습니다.
+19. t-SNE class has no transform method  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/cb4d6438-2907-4f03-b78e-509c82863814">
