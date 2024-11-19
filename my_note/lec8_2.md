@@ -22,10 +22,17 @@
     - Eigenvectors - principal components  
     - Eigenvalues - variances explained by principal components  
 
-** Goal: Find r-dim projection that best preserves variance (r <= d>) ** 
+**Goal: Find r-dim projection that best preserves variance (r <= d>)** 
 
-1. Given dataset D = {x_1, x_2,..., x_n} assume or make(StandardScaling) mean of x to 0.  
-2. 
+1. Given dataset D = {x_1, x_2,..., x_n} assume or make(StandardScaling) mean of x to 0  
+<img width="764" alt="image" src="https://github.com/user-attachments/assets/6ca1f365-345f-4667-bbf6-2e2690df22fa">
+<img width="760" alt="image" src="https://github.com/user-attachments/assets/51a6bc21-bcd4-438d-82b5-0b13bd069778">
+<img width="764" alt="image" src="https://github.com/user-attachments/assets/4297ace3-f981-4379-8ceb-e6a30d6f5819">  
+
+2. Compute covariance matrix **S** of original data points in the training dataset D 
+3. Compute eigenvectors and eigenvalues of **S**
+4. Select top r eigenvectors u_1, ..., u_r corresponding to the largest eigenvalues
+5. Project each data point onto subspace spanned by selected eigenvectors
 
 
 
