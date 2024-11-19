@@ -16,7 +16,7 @@
 
 > Eigendecomposition of the covariance matrix of the data
 
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/e0c23001-dd69-4cfd-98a0-a81f9004ae49">
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/e0c23001-dd69-4cfd-98a0-a81f9004ae49">
 
 - Finding the eigenvectors with the largest eigenvalues  
     - Eigenvectors - principal components  
