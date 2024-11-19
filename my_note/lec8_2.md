@@ -39,10 +39,10 @@
 
 - The less # of eigenvector, the more it is compressed(Dimension reduction). And the more it loses it's variance(information).  
 
-<img width="1242" alt="image" src="https://github.com/user-attachments/assets/4a91421d-63d0-49c9-8047-3f37564ea49d">  
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/4a91421d-63d0-49c9-8047-3f37564ea49d">  
 
 - Default in scikit-learn, pca=PCA() results in no dimension reduction!  
-<img width="839" alt="image" src="https://github.com/user-attachments/assets/4ac07b15-271a-430a-89dd-5a1d50fb6aa9">
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/4ac07b15-271a-430a-89dd-5a1d50fb6aa9">
 
 - Direction (sign) of PC doesn't matter
 - Explaning the mixture of features in new PC is tricky   
