@@ -1,4 +1,5 @@
 ## Unsupervised Learning: Dimensionality Reduction & Visualization
+<img width="1249" alt="image" src="https://github.com/user-attachments/assets/fdce0d16-841f-414a-a45d-f7bb1423a66f">  
 
 ### (Projection) Principal Commponent Analysis (PCA)
 
