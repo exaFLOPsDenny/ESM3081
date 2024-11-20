@@ -32,3 +32,4 @@ regression 에서는 y값에도
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/cb4d6438-2907-4f03-b78e-509c82863814">
 
 20. Hierachical Clustering-Agglomerative has no predict method, Once a decision is made to combine two clusters, it cannot be undone
+21. DBSCAN also no predict method
