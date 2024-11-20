@@ -46,3 +46,15 @@ other models including linear models and neural networks are very tied to the sc
 - Right-skewed distribution use log(y+1) transformation
 - Univariate nonlinear transformation irrelevent for tree-based model
 - Also for target y in regression can help
+
+## Automatic Feature Selection
+> Feature Engineering tends to increase the dimensionality making it more complex.  
+> Feature selction is to reduce # of features.
+
+- Feature Extraction vs Feature Selection
+    - Feature Extraction seems more efficient
+    - When Feature selection is used
+        - Features are expensive to obtain( by discarding the feature, we don't have to gather the discarded feature data)
+        - Interpretability as it preserve original representation
+
+### Filter Methods
