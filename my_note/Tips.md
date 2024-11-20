@@ -33,3 +33,4 @@ regression 에서는 y값에도
 
 20. Hierachical Clustering-Agglomerative has no predict method, Once a decision is made to combine two clusters, it cannot be undone
 21. DBSCAN also no predict method
+22. If the model is Logistic regression it includes bias term - Polynomial feature engineering include_bias should be false!
