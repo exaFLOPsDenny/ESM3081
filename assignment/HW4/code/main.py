@@ -58,7 +58,7 @@ else:
 kmeans_7 = KMeans(n_clusters=7, n_init=100, random_state=42)
 data['Cluster_label'] = kmeans_7.fit_predict(X_processed)
 
-# Step 2: Perform K-Means clustering within each bin (local clustering)
+# Step 2: Perform K-Means clustering within each bin (local clustering
 for bin_label in labels:
     bin_data = data[data['Cluster_label'] == bin_label]
     if not bin_data.empty:
