@@ -32,6 +32,7 @@ $$ \hat{y} = w^\top x $$
 - Hyperparameter α controls how much you want to regularize  
 - In scikit-learn, L2 is default and as the c(hyperparmeter) gets bigger the less of it's affectiveness, as c is the "inverse of regularization strenght"  
 - As Lasso regularization affects stronger, then the # of feature that are used decrease.(Not getting closer to 0 but just **'0'!!** like feature selection.)
+- Without Regularization term, no need to scale for LR
 
 
 <details>
