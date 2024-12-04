@@ -15,13 +15,13 @@
 
 - Type of failure  
     - Overfitting  
-        > Model too complex for the amount of data
-        > Model fit too closely to the particularities of the training set
-        > Work well on training set, but not on test set
+        > Model too complex for the amount of data  
+        > Model fit too closely to the particularities of the training set  
+        > Work well on training set, but not on test set  
     - Underfitting  
-        > Model too simple for the amount of data
-        > Model fails to capture all the aspects of and variability in the training set
-        > Work badly even on the training set
+        > Model too simple for the amount of data  
+        > Model fails to capture all the aspects of and variability in the training set  
+        > Work badly even on the training set  
 
 
 Relevance between generalization failure and model complexity  
