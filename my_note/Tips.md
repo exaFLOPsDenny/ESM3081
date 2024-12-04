@@ -1,4 +1,4 @@
-1. MSE's deterministic solution induction
+ㅇ1. MSE's deterministic solution induction
 2. Not only MSE but other loss function can be used
 3. Where did GD come from? And why lr should be close to 0?
 5. Non-linear activation function for hidden units, without this despite a lot of hidden layers it is still a linear model
@@ -34,3 +34,6 @@ regression 에서는 y값에도
 20. Hierachical Clustering-Agglomerative has no predict method, Once a decision is made to combine two clusters, it cannot be undone
 21. DBSCAN also no predict method
 22. If the model is Logistic regression it includes bias term - Polynomial feature engineering include_bias should be false!
+23. <img width="700" alt="image" src="https://github.com/user-attachments/assets/8411a395-c0d4-4c53-a43f-f91e42f0daa9">
+hyperparameter 설정 전 train과 validation 각각을 scale해주고 hyperparmeter를 찾은 뒤 train+validation을 합친 것에 대해 다시 scale
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/0c8a52be-ead1-4178-bd0a-d22e7ec88863">
