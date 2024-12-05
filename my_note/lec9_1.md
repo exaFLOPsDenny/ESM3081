@@ -18,7 +18,7 @@
 - points that are far apart, farther apart 
 - No transformation mapping exist for new data
 
-**Goal: Find r-dim representation that best preserves the distance between points (r <<> d)**  
+**Goal: Find r-dim representation that best preserves the distance between points (r <> d)**  
 
 1. Compute pairwise similarity p_ij for original data points in the training dataset D
 2. Initialize r-dim representation Z^(0) by sampling from N(0,εI)
