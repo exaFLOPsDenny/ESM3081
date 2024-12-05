@@ -31,11 +31,12 @@ Structure
 
 ### Hyperparameters
 
-1. hidden layer sizes (e.g. (50,30,20))
-2. activation function
+- Hidden layer sizes (e.g. (50,30,20))
+- Activation function
     - tanh and sigmoid are less sensitive to noise
-3. alpha for L2 regularization
-4. solver (sgd, adam, lbfgs, etc)
+- Alpha for L2 regularization
+- Solver (sgd, adam, lbfgs, etc)
+
 
 - Feature and label both needs to be scaled  
 - Evaluation is occured after inverse scaling transform.
