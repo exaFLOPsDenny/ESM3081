@@ -12,10 +12,10 @@
 - Pre-processing data scaling is needed for both features and target
 - Evaluation is occured after inverse scaling transform.
 
-### Strenghts
+### Strengths
 - Large data, complex model and good predictive ability
 
-### Weeknesses
+### Weaknesses
 - Long time to train
 - Tuning hyperparameter is art onto itself
 - Black box model
