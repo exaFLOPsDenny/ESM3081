@@ -1,6 +1,6 @@
 ## Neural Network
 
-Structure
+### Structure
 > Input layer : Each input unit represents an input feature  
 > Hidden Layer(s) : Each hidden unit represents an intermediate processing step  
 > Output Layer : Output unit represents the prediction of the target label  
@@ -11,12 +11,13 @@ Structure
 - Pre-processing data scaling is needed for both features and target
 - Evaluation is occured after inverse scaling transform.
 
-- Strenghts
-    - Large data, complex model and good predictive ability
-- Weeknesses
-    - Long time to train
-    - Tuning hyperparameter is art onto itself
-    - Black box model
+### Strenghts
+- Large data, complex model and good predictive ability
+
+### Weeknesses
+- Long time to train
+- Tuning hyperparameter is art onto itself
+- Black box model
 
 ### Non-linear activation function
 
