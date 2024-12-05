@@ -69,7 +69,7 @@ other models including linear models and neural networks are very tied to the sc
 #### Wrapper Methods
 > Select subset of features that will best fit its learning algorithm
 
-- Series of modeels are buiilt with varying numbers of models
+- Series of models are built with varying numbers of models
 - Allow correlation between features, higher accuaracy than filter method
 - Computationally expensive  
 
