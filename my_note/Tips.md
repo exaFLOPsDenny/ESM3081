@@ -15,7 +15,7 @@ regression 에서는 y값에도
     - low regularization term alpha ~ overfitting
     - very large alpha ~ flat line foing through the mean of the labels in the training set
     - DT (max_depth: high ~ overfitting / min_sample_leaf: low ~ overfitting / max_leaf_nodes: high ~ overfitting)
-    - RF (Boostrap 0: generalized / max_feature: low ~ overfitting)
+    - RF (Boostrap 0: generalized / max_feature: high ~ overfitting)
     - SVC (C: big ~ overfitting)
     - SVR (C: big ~ overfitting/ epsilon: small ~ overfitting / gamma in rbf kernel: big ~ overfitting)
     - NN (complex hidden layer ~ overfitting)
