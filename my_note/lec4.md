@@ -60,7 +60,7 @@ Decision trees tend to overfit the training data
 ## Random Forests
 
 > Random forest is an ensemble of decision trees, where each tree is slightly different from others  
-> Got it's name by injecting **randomness** into the tree building to ensure each tree is different. By this, reducing the amount of overfitting by averaging their results while retaining the predictive power of the trees.  
+> Got it's name by injecting **randomness** into the tree building to ensure **each tree is different**. By this, reducing the amount of overfitting by averaging their results while retaining the predictive power of the trees.  
 > As admitting there will be overfitting on trees, hyperparameters(max_depth, max_features, n_leaf_nodes) of each trees don't effect that much.  
 
 - Strengths  
