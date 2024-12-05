@@ -12,7 +12,7 @@ Structure
     - Large data, complex model and good predictive ability
 - Weeknesses
     - Long time to train
-    - Tuning hyperparameter is art unto itself
+    - Tuning hyperparameter is art onto itself
     - Black box model
 
 ### Non-linear activation function
