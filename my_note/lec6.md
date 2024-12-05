@@ -38,6 +38,7 @@
 #### # parameter w.r.t model complexity
 <img width="811" alt="image" src="https://github.com/user-attachments/assets/e196477e-ca9b-46d1-8c65-4c54c341c299">
 
+> If multi-class classification, softmax is used so last should be n(# of class) not 1.
 https://www.nature.com/articles/nature14539
 
 
