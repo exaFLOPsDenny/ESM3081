@@ -78,7 +78,7 @@
 
 - Cross-Validation
     - All data points be in test dataset **once**
-    - Data are split repeatedly and multiple models are trained
+    - Data split repeatedly and multiple models are trained
     - Computation cost is increased but we usually use Cross-validation on small dataset so not such a big deal
 
 - k-Fold Cross-Validation

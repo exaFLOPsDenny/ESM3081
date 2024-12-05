@@ -46,3 +46,4 @@ hyperparameter 설정 전 train과 validation 각각을 scale해주고 hyperparm
 25. In t-SNE same scale should be used over all features
 <img width="1070" alt="image" src="https://github.com/user-attachments/assets/e1441d6d-b2d9-4b10-8855-b259284667d7">
 
+26. There exist a scoring measure for clustering that don't require ground truth (silhouette coefficient, cluster cohesion(intra-clustering), cluster separation(inter-clustering))
