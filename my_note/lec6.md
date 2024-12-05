@@ -6,7 +6,10 @@ Structure
 > Output Layer : Output unit represents the prediction of the target label  
 <img width="668" alt="image" src="https://github.com/user-attachments/assets/ae6eec96-cbc3-4ee5-83b4-440084718ed0">  
 
-> Connecting lines: learnable parameters  
+
+- Connecting lines: learnable parameters  
+- Pre-processing data scaling is needed for both features and target
+- Evaluation is occured after inverse scaling transform.
 
 - Strenghts
     - Large data, complex model and good predictive ability
@@ -37,9 +40,6 @@ Structure
 - Alpha for L2 regularization
 - Solver (sgd, adam, lbfgs, etc)
 
-
-- Feature and label both needs to be scaled  
-- Evaluation is occured after inverse scaling transform.
 
 #### # parameter w.r.t model complexity
 <img width="811" alt="image" src="https://github.com/user-attachments/assets/e196477e-ca9b-46d1-8c65-4c54c341c299">
