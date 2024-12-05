@@ -4,8 +4,8 @@
 > Input layer : Each input unit represents an input feature  
 > Hidden Layer(s) : Each hidden unit represents an intermediate processing step  
 > Output Layer : Output unit represents the prediction of the target label  
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/70b0fee7-6945-4be8-bb4e-4b9df1230d85">
-<img width="500" alt="image" src="https://github.com/user-attachments/assets/ae6eec96-cbc3-4ee5-83b4-440084718ed0">  
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/70b0fee7-6945-4be8-bb4e-4b9df1230d85">
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/ae6eec96-cbc3-4ee5-83b4-440084718ed0">  
 
 
 - Connecting lines: learnable parameters  
