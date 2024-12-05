@@ -2,7 +2,7 @@
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/fdce0d16-841f-414a-a45d-f7bb1423a66f">  
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/40a3a987-4c59-4336-8862-645ed255037b">
 
-> Linear Dimensionality Reduction vs Nonlinear can't be answered by data scientist buy by domain experts.  
+> Linear Dimensionality Reduction vs Nonlinear can't be answered by data scientist but by domain experts.  
 
 ### (Projection) Principal Commponent Analysis (PCA)
 
