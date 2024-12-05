@@ -13,7 +13,7 @@ Structure
 - Regression  
     - To **minimize the variance**, but the results for unknown data which might escape the range of train data might be poor.
     - Poor result: mean value of train data
-<img width="589" alt="image" src="https://github.com/user-attachments/assets/7f4ec027-0f9a-4227-b139-bf85a926bb02">  
+    <img width="589" alt="image" src="https://github.com/user-attachments/assets/7f4ec027-0f9a-4227-b139-bf85a926bb02">  
 
 - Classification  
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/a8de12b5-0fbb-4715-9889-62c87a79e998"> <img width="432" alt="image" src="https://github.com/user-attachments/assets/247aa143-57bd-479f-84bd-d2cab33fb14b">
