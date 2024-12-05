@@ -7,6 +7,9 @@ Structure
 > Edge : condtion of a feature value  
 > Leaf node: prediction  
 
+- Procedure
+    - Repeatedly split a node into two parts so as to minimize the impurity of outcome within the new parts
+
 - Strength
     - Extracted knowledge can be easily understood, interpreted, controlled by humans in the form of a readable decision tree  
     - By seeing feature importance, we can see which feature is giving big effect  
@@ -23,8 +26,6 @@ Structure
 Finitely many different decision trees can exist. 
 - Optimal algorithm: generates all possible trees and choose the best one.
 - Heuristic algorithms: with greedy strategy  
-### Procedure
-1. Repeatedly split a node into two parts so as to minimize the impurity of outcome within the new parts
 
 ### How to determine the best split?
 - Regression  
