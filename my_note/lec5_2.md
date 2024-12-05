@@ -3,7 +3,7 @@
 
 ### Perspective on SVM regression as linear regression
 > Constraint from SVC has changed(>=1 to <= epsilon)  
-> By this we need to check if it is under the under the margin of decision boundary or above  
+> By this we need to check if it is under the margin of decision boundary or above  
 > We need two slack valiables  
 
 <img width="1120" alt="image" src="https://github.com/user-attachments/assets/90e91b6b-d23a-4ece-b5c3-278f88e827b9">  
