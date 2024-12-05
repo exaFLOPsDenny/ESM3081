@@ -42,3 +42,4 @@ hyperparameter 설정 전 train과 validation 각각을 scale해주고 hyperparm
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/0c8a52be-ead1-4178-bd0a-d22e7ec88863">
 
 24. After PCA we can get back to the original dimension. The data will not be excatly the same but close.
+25. In t-SNE same scale should be used over all features
