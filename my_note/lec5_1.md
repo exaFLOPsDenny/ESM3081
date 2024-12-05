@@ -35,6 +35,10 @@
 
 <img width="856" alt="image" src="https://github.com/user-attachments/assets/0a34e92a-3cb7-42d3-94a7-eebb48b6d77b">
 
+### SVC for Multi-class classification
+
+<img width="765" alt="image" src="https://github.com/user-attachments/assets/4005ea0a-3962-4b21-8f4a-9d9e8e77a08f">
+
 
 ### Kernelized SVM
 
@@ -52,6 +56,3 @@ But not all functions can be kernels.
 - higher value of gamma: overfitting  
 -> Grid-search for hyperparameter optimization
 
-### SVC for Multi-class classification
-
-<img width="765" alt="image" src="https://github.com/user-attachments/assets/4005ea0a-3962-4b21-8f4a-9d9e8e77a08f">
