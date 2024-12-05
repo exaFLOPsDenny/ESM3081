@@ -18,14 +18,6 @@
 
 #### Mathematical Interpretation of PCA
 
-> Eigendecomposition of the covariance matrix of the data
-
-<img width="300" alt="image" src="https://github.com/user-attachments/assets/e0c23001-dd69-4cfd-98a0-a81f9004ae49">
-
-- Finding the eigenvectors with the largest eigenvalues  
-    - Eigenvectors - principal components  
-    - Eigenvalues - variances explained by principal components  
-
 **Goal: Find r-dim projection that best preserves variance (r <= d)** 
 
 1. Given dataset D = {x_1, x_2,..., x_n} assume or make(StandardScaling) mean of x to 0  
@@ -39,6 +31,14 @@
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/4297ace3-f981-4379-8ceb-e6a30d6f5819">  
 
 5. Project each data point onto subspace spanned by selected eigenvectors
+
+> Eigendecomposition of the covariance matrix of the data
+
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/e0c23001-dd69-4cfd-98a0-a81f9004ae49">
+
+- Finding the eigenvectors with the largest eigenvalues  
+    - Eigenvectors - principal components  
+    - Eigenvalues - variances explained by principal components  
 
 
 #### About Principal Component
