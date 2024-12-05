@@ -28,7 +28,7 @@ Cost function of MSE changed to ε-insensitive loss function which only penaltiz
 
 
 - Strengths of SVM
-    - Perform well on variety
+    - Perform well on variety (One of the best before NN)
     - Complex decision boundaries even with few features
 - Weaknesses of SVM
     - Poor scalability
