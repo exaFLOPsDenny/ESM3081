@@ -19,6 +19,7 @@
     - Requires to specify the number of clusters you are looking for  
     - Highly depends on feature scaling  
     - Relatively restrictive assumptions are made on the shape of clusters.
+
 **Goal: Assign k cluster center that represents the data**
 
 1. Assign initial cluster centers(Random Initialization effects the result -  recommended to run the algorithm multiple times)  
