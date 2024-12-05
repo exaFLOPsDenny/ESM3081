@@ -47,3 +47,4 @@ hyperparameter 설정 전 train과 validation 각각을 scale해주고 hyperparm
 <img width="1070" alt="image" src="https://github.com/user-attachments/assets/e1441d6d-b2d9-4b10-8855-b259284667d7">
 
 26. There exist a scoring measure for clustering that don't require ground truth (silhouette coefficient, cluster cohesion(intra-clustering), cluster separation(inter-clustering))
+<img width="966" alt="image" src="https://github.com/user-attachments/assets/c0dde7c6-3687-48a9-861c-42cecffd1304">
