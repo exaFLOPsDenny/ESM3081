@@ -18,6 +18,8 @@ Structure
 - Classification  
 <img width="50%" alt="image" src="https://github.com/user-attachments/assets/a8de12b5-0fbb-4715-9889-62c87a79e998"> <img width="432" alt="image" src="https://github.com/user-attachments/assets/247aa143-57bd-479f-84bd-d2cab33fb14b">
 
+<img width="1032" alt="image" src="https://github.com/user-attachments/assets/bcf5ae51-a7f9-4154-a49d-78d9a79ec0fe">
+
 - Strength
     - Extracted knowledge can be easily understood, interpreted, controlled by humans in the form of a readable decision tree  
     - By seeing feature importance, we can see which feature is giving big effect  
