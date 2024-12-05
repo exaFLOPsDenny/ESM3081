@@ -18,7 +18,7 @@ regression 에서는 y값에도
     - RF (Boostrap 0: generalized / max_feature: high ~ overfitting)
     - SVC (C: big ~ overfitting)
     - SVR (C: big ~ overfitting/ epsilon: small ~ overfitting / gamma in rbf kernel: big ~ overfitting)
-    - NN (complex hidden layer ~ overfitting)
+    - NN (complex hidden layer ~ overfitting, low alpha ~ overfitting)
 12. learning rate should be small if not the assumption of taylor expansion fails
 13. No free lunch 절대적으로 낫다 는 없다
 14. DT는 비교적 feature scaling에 영향을 덜 받는다(0~1 보단 -1~1까지 0을 중심으로 하는 것이 더 좋다)
